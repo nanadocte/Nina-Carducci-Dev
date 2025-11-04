@@ -100,10 +100,11 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000
@@ -242,6 +243,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+li.nav-item span {
+    cursor: pointer;
+}
+
+img.gallery-item.img-fluid {
+    cursor: pointer;
 }
 
 @media all and (max-width: 1180px) {
