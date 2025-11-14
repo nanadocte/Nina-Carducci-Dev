@@ -106,7 +106,7 @@ h3.about-me__introduction {
 }
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #8c8541;
 	border-radius:0 ;
 	cursor: pointer;
 }
